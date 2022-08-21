@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43, 41, 34);
+    font-family: 'Poppins',sans-serif;
+
+}
+nav{
+    display: flex;
+    height: auto;
+    /* border: 3px solid palegreen; */
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.nav-logo img{
+    float: left;
+    width: 100px;
+    
+}
+div .btn{
+    justify-content: flex-end;
+}
+nav .nav-items{
+    display: flex;
+    width: auto;
+    margin-left: 320px;
+    /* border: 3px solid black; */
+}
+.nav-items li{
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 60px;
+    justify-content: flex-end;
+    font-size: 12px;
+    font-weight: 100;
+    
+}
+nav button{
+    padding: 10px 30px;
+    border: 2px solid rgb(160, 143, 54);
+    border-radius: 10px;
+    color: rgb(160, 143, 54);
+    background-color: rgb(43, 41, 34);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tag-line h1{
+    margin-left: 80px;
+    color: #ffffff;
+    font-size: 60px;
+    width: 490px;
+    font-weight: 800;
+}
+.com-header{
+    margin-top: 80px;
+}
+.description p{
+    color: #ffffff;
+    font-size: 13px;
+    width: 300px;
+}
+.description{
+    margin-right: 80px;
+    font-weight: 200;
+}
+/* company cover */
+.company-justice{
+    margin-top: 80px;
+    height: 550px;
+    width: 100vw;
+    overflow: hidden;
+}
+.company-justice img{
+    width: 100vw;
+    position: relative;
+    bottom: 200px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .fa-circle-arrow-left {
+    background-color: rgb(57, 55, 45);
+    
+}
+
+footer .fa-circle-arrow-right {
+    background-color: rgb(160, 143, 54);
+}
+footer .fa-solid{
+    color: #ffffff;
+    font-size: 50px;
+    padding: 20px;
+}
+
+nav .nav-active:hover {
+    font-weight: 500 ;
+}
+nav .nav-items, .btn:hover {
+    cursor: pointer;
+}
+
+/*
+time taken: 7 hours approx 
+-learnings how to fit image size inside a div using overflow: hidden
+-how to place footer navigation logo
+*/
