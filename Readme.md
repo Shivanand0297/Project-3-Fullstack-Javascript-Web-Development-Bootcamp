@@ -10,6 +10,6 @@
 ### Time Taken:
 - 7 Hours
 ## Links
-[Deployed netlify link](https://shivanand-project-2.netlify.app/)
+[Deployed netlify link](https://shivanand-project-3.netlify.app/)
 
 ![badge](https://img.shields.io/badge/Project--3-Deployed-green)
