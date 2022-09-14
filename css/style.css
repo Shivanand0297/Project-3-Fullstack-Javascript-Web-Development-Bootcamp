@@ -39,13 +39,13 @@ nav .nav-items{
     /* border: 3px solid black; */
 }
 .nav-items li{
-    text-decoration: none;
     list-style-type: none;
     color: #ffffff;
     margin-left: 60px;
     justify-content: flex-end;
     font-size: 12px;
     font-weight: 100;
+    border: 1px solid transparent;
     
 }
 nav button{
